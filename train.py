@@ -7,20 +7,9 @@ import torch.nn as nn
 import torch.optim as optim
 from numpy import *
 
-# from model_unet import UNET
-# from WyfUnetTest import MyUNet
-# from WyfUnetTest_v3_33_with7times7and9times9_withoutAttention import MyUNET
-# from model_unet import UNET
-# from BAS_two import BAS
-# from BASTD import BAS
-# from baseline_v2 import RAS
-# from RAS_B_v2 import RAS
-# from RTRAT_v2 import DTUM
-# from TransUnet_baseline import TransUnet_baseline
+
 from model import FTUNet
-# from RAT import RAT
-# from FAT_Net import FAT_Net
-# from RTRAS_v2 import DTUM
+
 from utils import (
     load_checkpoint,
     save_checkpoint,
