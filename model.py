@@ -5,7 +5,14 @@ from torchvision import models as resnet_model
 import torchvision.transforms.functional as TF
 import numpy as np
 
-# 在注意力机制处加残差网络
+"""
+FTUNet
+
+Author: Yuefei Wang
+Affiliation: Chengdu University
+For academic and research purposes only, not for commercial use.
+
+"""
 
 class _ASPPModule(nn.Module):
     def __init__(self, inplanes, planes, kernel_size, padding, dilation):
